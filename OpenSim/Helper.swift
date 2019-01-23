@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+// TODO: Xcode->Preferences->Locations->Command Line Tools 未设置导致无法显示的错误
 func shell(_ launchPath: String, arguments: [String]) -> String {
     let progress = Process()
     progress.launchPath = launchPath
